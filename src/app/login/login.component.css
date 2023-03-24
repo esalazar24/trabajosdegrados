@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  height: 100vh;
+}
+main section.principal {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  padding: 1em 3px 0px 5px;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  background: url("../../assets/fondo/fondo1.jpg");
+  background-size: 100%, cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main section.principal blockquote {
+  color: white;
+  text-shadow: 2px 2px 3px white, 2px 2px 3px white;
+  font-size: 1.9em;
+  text-align: center;
+  padding-left: 20px;
+}
+main section.principal blockquote h2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+main section.principal blockquote p {
+  color: white;
+  font-weight: bold, bold, bold, bold;
+  text-shadow: 2px 2px 3px black;
+  justify-content: left;
+  padding: 10px;
+  font-size: 1.1em;
+}
+main section.principal form {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+}
+main section.principal form input, main section.principal form button {
+  width: 100%;
+  margin-bottom: 25px;
+}
+main section.principal form input {
+  padding: 10px;
+  width: 100%;
+  display: block;
+}
+main section.principal form button {
+  margin-bottom: 60px;
+  padding: 100%;
+  font-size: 1em;
+  background: rgb(124, 188, 172);
+  padding: 10px;
+  border: none;
+  color: black;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+main section.principal form a {
+  display: block;
+  text-align: center;
+  font-size: 1.3em;
+  color: white;
+}/*# sourceMappingURL=login.component.css.map */
