@@ -12,6 +12,7 @@ import { LoginService } from './services/login.services';
 import { Routes } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     RegistroItemsComponent,
     ConsultaSugerenciasComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
